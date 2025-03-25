@@ -3,7 +3,7 @@ from click import option
 
 st.title('movie recommender system')
 
- # option = st.selectbox(
- #     'how would you like to be contacted?',
- #     ('email','home phone','mobile phone')
- # )
+option = st.selectbox(
+    'the movie you want to see',
+    ('movie1','movie2')
+)
